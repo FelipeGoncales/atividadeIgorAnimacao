@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    background-color: black;
+    height: 6vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.bottom {
+    background-color: black;
+    height: 6vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+
+.right {
+    background-color: black;
+    height: 100vh;
+    width: 6vh;
+    position: absolute;
+    left: 0;
+    z-index: 3;
+}
+
+.left {
+    background-color: black;
+    height: 100vh;
+    width: 6vh;
+    position: absolute;
+    right: 0;
+    z-index: 3;
+}
+
+.container {
+    width: 40vw;
+    height: 50vh;
+    background-color:#EA1111;
+    position: absolute;
+    bottom: 25vh;
+    left: 30vw;
+}
+
+.centro {
+    width: 30vw;
+    height: 35vh;
+    background-color: #5EFEB1;
+    position: absolute;
+    left: calc(50% - 30vw / 2);
+    top: calc(50% - 35vh / 2);
+}
+
+.bola-top {
+    width: 5vw;
+    height: 5vw;
+    background-color:#F7F9A3;
+    border-radius: 100%;
+    position: absolute;
+    left: calc(50% - 5vw / 2);
+    top: -3vw;
+}
+
+.bola-bottom {
+    width: 5vw;
+    height: 5vw;
+    background-color:#280E0E;
+    border-radius: 100%;
+    position: absolute;
+    left: calc(50% - 5vw / 2);
+    bottom: -3vw;
+}
+.bola-left {
+    width: 5vw;
+    height: 5vw;
+    background-color: #FFA1F0;
+    border-radius: 100%;
+    top: calc(50% - 5vw / 2);
+    position: absolute;
+    left: -3vw;
+}
+.bola-right {
+    width: 5vw;
+    height: 5vw;
+    background-color:#A1EEFF;
+    border-radius: 100%;
+    position: absolute;
+    top: calc(50% - 5vw / 2);
+    right: -3vw;
+}
+.bola-centro {
+    width: 5vw;
+    height: 5vw;
+    background-color: #3705FF;
+    border-radius: 100%;
+    position: absolute;
+    top: calc(50% - 5vw / 2);
+    left: calc(50% - 5vw/2);
+}
+

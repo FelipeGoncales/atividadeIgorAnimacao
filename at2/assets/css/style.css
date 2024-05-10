@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div1 {
+    width: 100vw;
+    height: 20vh;
+    background-color: #203788;
+    position: relative;
+}
+
+.div2 {
+    background-color: #B6FFDC;
+    width: 30vw;
+    height: 10vh;
+    bottom: 2.5vw;
+    left: 35vw;
+    position: absolute;
+}
+
+.div3 {
+    background-color: #CF1919;
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
