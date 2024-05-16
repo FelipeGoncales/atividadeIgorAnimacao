@@ -65,21 +65,6 @@
     position: absolute;
     left: calc(50% - 5vw / 2);
     top: -3vw;
-    animation: animacao-top 5s infinite;
-}
-@keyframes animacao-top {
-    25% {
-        top: calc(25vh - 2vw);
-        left: calc(40vw - 2vw);
-    }
-    50% {
-        top: calc(50vh - 2vw);
-        left: 17.5vw;
-    }
-    75% {
-        top: calc(25vh - 2.5vw);
-        left: -3vw;
-    }
 }
 
 
@@ -91,23 +76,7 @@
     position: absolute;
     left: calc(50% - 5vw / 2);
     bottom: -3vw;
-    animation: animation-bottom 5s infinite;
 }
-@keyframes animation-bottom {
-    25% {
-        bottom: calc(25vh - 3vw);
-        left: -3vw;
-    }
-    50% {
-        bottom: calc(50vh - 2vw);
-        left: 17.5vw; 
-    }
-    75% {
-        bottom: calc(25vh - 3vw);
-        left: calc(100% - 2vw);
-    }
-}
-
 
 .bola-left {
     width: 5vw;
@@ -117,22 +86,6 @@
     top: calc(50% - 5vw / 2);
     position: absolute;
     left: -3vw;
-    animation: animacao-left 5s infinite;
-}
-
-@keyframes animacao-left {
-    25% {
-        left: 17.5vw;
-        top: -3vw;
-    }
-    50% {
-        left: calc(100% - 2vw);
-        top: calc(25vh - 2.5vw);
-    }
-    75% {
-        left: 17.5vw;
-        top: calc(100% - 2vw);
-    }
 }
 
 .bola-right {
@@ -143,22 +96,8 @@
     position: absolute;
     top: calc(50% - 5vw / 2);
     right: -3vw;
-    animation: animacao-right 5s infinite;
 }
-@keyframes animacao-right {
-    25% {
-        top: calc(100% - 2vw);
-        right: 17.5vw;
-    }
-    50% {
-        top: calc(25vh - 2.5vw);
-        right: calc(100% - 2vw);
-    }
-    75%{
-        top: -3vw;
-        right: 17.5vw;
-    }
-}
+
 .bola-centro {
     width: 5vw;
     height: 5vw;
